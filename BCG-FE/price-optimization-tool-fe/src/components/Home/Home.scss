@@ -1,0 +1,44 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    .home-container{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: min-content;
+    min-height: 100vh;
+    max-width:800px;
+    .img-container{
+        margin-top: 5em;
+        margin-bottom: 3em;
+    }
+    .img{
+        height: 40px;
+    }
+    .heading{
+        font-size: 50px;
+        font-weight: 500;
+        display: flex;
+    }
+    .help-text{
+        font-size: 13px;
+        text-align: center;
+    }
+    .heading-container{
+        display: grid;
+        grid-auto-rows: min-content;
+    }
+    .card-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-img{
+        height: 100px;
+    }
+    .card-img-container{
+        height: 150px;
+        padding: 1.5rem;
+    }
+}
+
+}
+

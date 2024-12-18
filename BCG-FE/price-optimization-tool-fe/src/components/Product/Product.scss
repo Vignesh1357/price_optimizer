@@ -1,0 +1,20 @@
+.table{
+    padding: 1rem;
+}
+
+.product-details-img{
+    height: 200px;
+    width: fit-content;
+}
+
+.product-details-img-container{
+    margin: 1rem;
+}
+
+.details-container{
+    display: grid;
+    row-gap: 7px;
+}
+.pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+@import "src/Assets/Constants/Variables.scss";
+
+.App {
+  min-height: 100vh;
+  height: 100%;
+  background-color: $body;
+}
+
+.font-white{
+  color: white;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.font-400{
+  font-weight: 400;
+}
+
+.font-600{
+  font-weight: 600;
+}

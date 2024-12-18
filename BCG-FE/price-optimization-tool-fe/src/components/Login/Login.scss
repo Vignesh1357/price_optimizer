@@ -1,0 +1,30 @@
+@import "src/Assets/Constants/Variables.scss";
+
+.login-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    height: 80vh;
+    border: 1px solid black;
+    .logo{
+        height: 80vh;
+        flex: 1;
+        width: 100%;
+    }
+    .form{
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        background-color: white;
+        height: inherit;
+        display: flex;
+    }
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
