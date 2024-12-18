@@ -1,0 +1,8 @@
+.idea/
+*.pyc
+*.log
+media/
+staticfiles/
+venv/
+__pycache__
+migrations
